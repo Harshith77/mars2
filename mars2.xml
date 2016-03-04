@@ -33,14 +33,14 @@
             </value>
             <value name="BOTHMOVRIGHT">
               <block type="math_number" id="9">
-                <field name="NUM">-95</field>
+                <field name="NUM">50</field>
               </block>
             </value>
           </block>
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="10" inline="true">
-            <field name="OP">LT</field>
+            <field name="OP">GT</field>
             <value name="A">
               <block type="sensor_spectrometer" id="35">
                 <field name="LIGHT">RED</field>
@@ -48,7 +48,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="12">
-                <field name="NUM">75</field>
+                <field name="NUM">95</field>
               </block>
             </value>
           </block>
